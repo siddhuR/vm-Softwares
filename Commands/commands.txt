@@ -1,0 +1,42 @@
+1. ifconfig ---> to configure
+2. uname ---> to know the name of the operating system
+3. uname -r ---> recursive
+4. uname -a ---> details of our system
+5. history ---> to check the history of the cmds which we used
+6. clear ---> to clear all the cmds from terminal
+7. ls ---> to view the list of directories
+8. cd .. ---> to go back to previous directory
+9. cd <directory name>/ ---> to enter into some directory which we choose
+       <<< Simply click on TAB key on keyboard after entering first 2 letters of directory.   >>>
+10. touch <FileName> ---> to create file. Here, <FileName> is the name which you want to give for the file
+11. touch <FileName.txt> ---> to create the file with extension name. <<< it is same as of previous smd
+12. rm <FileName.txt> ---> to remove the file from the directory
+13. mkdir <FileName> ---> to create the directory with the perticular dir name
+14. rmdir <FileName> ---> to delete the directory with the perticular dir name
+15. man ls ---> show the manual of ls
+16. cp <FileName> /<address>/ ---> to copy the file and paste in the perticular address
+17. ls -l <FileName> ---> to show the permissions of the file
+	__________________________________________________
+	| ex:- -rwxr-xr-x 1 root root <DATE> <FileName>	 |
+	|	Here, admin rwx					 |
+	|		group rx					 |
+	|		public rx					 |
+	|________________________________________________|
+
+18. chmod <746> <FileName> ---> to change the permissions of the file according to our requirements
+	__________________________________________________
+	| ex:- -rwxr-xr-x 1 root root <DATE> <FileName>	 |
+	|								 |
+	|	Here, admin rwx	===> 4+2+1 = 7		 |
+	|		group rw	===> 4+2 = 6		 |
+	|		public r	===> 4			 |
+	|								 |
+	|	1  execute						 |
+	|	2  write						 |
+	|	4  read						 |
+	|								 |
+	|	1+2+4 = 7						 |
+	|________________________________________________|
+
+	// Now check again the permissins by cmd Number-17. permissions will be change according to your changes
+
